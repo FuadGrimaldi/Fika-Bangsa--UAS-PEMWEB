@@ -6,7 +6,7 @@
 
 @section('content')
 <!-- Subscription Stat -->
-<div class="bg-black py-[50px] rounded-2xl mx-[116px]">
+<div class="bg-black py-[50px] rounded-2xl mx-[140px]">
     <div class="flex items-center gap-3 ml-[100px]">
         <img src="{{ asset('stream/assets/images/ic_subscription.svg') }}" alt="">
         <div class="flex flex-col gap-2">

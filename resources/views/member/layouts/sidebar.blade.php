@@ -4,7 +4,7 @@
                 <a href="{{route('member.dashboard')}}" class="m-auto pb-[70px]">
                     <img src="{{ asset('stream/assets/images/fika.png') }}" alt="fika" width="150px" height="150px">
                 </a>
-                <div class="links flex flex-col -mt-[40px] pb-[100px] gap-2">
+                <div class="links flex flex-col -mt-[40px] pb-[40px] gap-2">
                     <a href="{{route('member.dashboard')}}" class="side-link transition duration-150 ease-in-out hover:font-bold hover:text-white hover:text-primary-600 focus:outline-none focus:ring-0 active:bg-white active:text-black motion-reduce:transition-none">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
