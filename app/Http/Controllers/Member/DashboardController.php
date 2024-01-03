@@ -12,6 +12,6 @@ class DashboardController extends Controller
         $movies = Movie::orderBy('featured', 'DESC')
         ->orderBy('created_at', 'DESC')
         ->get();
-        return view('Member.dashboard', ['movies'=>$movies]);
+        return view('member.dashboard', ['movies'=>$movies]);
     }
 }

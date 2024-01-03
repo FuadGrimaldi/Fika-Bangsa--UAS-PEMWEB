@@ -12,30 +12,30 @@ class CategoriController extends Controller
         $movies = Movie::orderBy('featured', 'DESC')
         ->orderBy('created_at', 'DESC')
         ->get();
-        return view('Member.categories', ['movies'=>$movies]);
+        return view('member.categories', ['movies'=>$movies]);
     }
     public function action(){
         $movies = Movie::orderBy('featured', 'DESC')
         ->orderBy('created_at', 'DESC')
         ->get();
-        return view('Member.categories-action', ['movies'=>$movies]);
+        return view('member.categories-action', ['movies'=>$movies]);
     }
     public function horror(){
         $movies = Movie::orderBy('featured', 'DESC')
         ->orderBy('created_at', 'DESC')
         ->get();
-        return view('Member.categories-horror', ['movies'=>$movies]);
+        return view('member.categories-horror', ['movies'=>$movies]);
     }
     public function anime(){
         $movies = Movie::orderBy('featured', 'DESC')
         ->orderBy('created_at', 'DESC')
         ->get();
-        return view('Member.categories-anime', ['movies'=>$movies]);
+        return view('member.categories-anime', ['movies'=>$movies]);
     }
     public function survival(){
         $movies = Movie::orderBy('featured', 'DESC')
         ->orderBy('created_at', 'DESC')
         ->get();
-        return view('Member.categories-survival', ['movies'=>$movies]);
+        return view('member.categories-survival', ['movies'=>$movies]);
     }
 }
