@@ -15,4 +15,7 @@ class PricingController extends Controller
             'premium' => $premiumPackage
         ]);
     }
+    public function finish() {
+        return view('member.payment-finish');
+    }
 }

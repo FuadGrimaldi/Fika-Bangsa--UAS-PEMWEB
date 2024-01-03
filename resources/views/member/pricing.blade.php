@@ -42,7 +42,7 @@
     <div class="grid md:grid-cols-12 font-poppins relative pb-20">
         <div class="col-span-12 col-start-1 lg:col-start-2 xl:col-start-4">
             <div class="px-5 lg:px-[60px] pt-[30px] relative">
-                    <a href="/" class="hidden lg:block right-0 absolute">
+                    <a href="{{route('member.payment.finish')}}" class="hidden lg:block right-0 absolute">
                     <img
                         src="{{ asset('stream/assets/images/fika.png') }}"
                         width="150px"
@@ -75,7 +75,7 @@
                                 <!-- benefits -->
                                 <div class="flex items-center justify-between gap-3">
                                     <span class="li-benefits text-white">
-                                        {{ $standard -> max_users}} Users Limits
+                                        {{ $standard -> max_user}} Users Limits
                                     </span>
                                     <img src="{{ asset('stream/assets/images/ic_check.svg') }}" alt="fika" />
                                 </div>

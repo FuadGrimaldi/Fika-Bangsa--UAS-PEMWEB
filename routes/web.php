@@ -63,10 +63,10 @@ Route::post('/register', [RegisterController::class, 'store'])->name('member.reg
 Route::get('/login', [MemberLoginController::class, 'index'])->name('member.login');
 Route::post('/login', [MemberLoginController::class, 'auth'])->name('member.login.auth');
 
-Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
-
-
-Route::view('/payment-finish', 'member.payment-finish')->name('member.payment.finish');
+Route::group(['prefix' => 'pricing'], function() {
+    Route::get('/', [PricingController::class, 'index'])->name('pricing');
+    Route::get('/finish', [PricingController::class, 'finish'])->name('member.payment.finish');
+});
 
 Route::group(['prefix' => 'member', 'middleware' => ['auth']], function() {
     Route::get('/', [DashboardController::class, 'index'])->name('member.dashboard');
