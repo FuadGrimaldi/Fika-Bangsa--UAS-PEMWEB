@@ -53,7 +53,7 @@
 
     <div class="mx-auto px-4 w-full md:w-7/12 h-screen block lg:hidden flex">
         <div class="text-white text-2xl text-center leading-snug font-medium my-auto">
-            Sorry, this page only supported on 1024px screen or above
+            Sorry gan ini ga support hp, buka nya pake laptop 
         </div>
     </div>
 
