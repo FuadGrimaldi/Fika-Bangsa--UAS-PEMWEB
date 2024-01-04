@@ -22,6 +22,42 @@
     />
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+        @media screen and (max-width:680px){
+          .container {
+          margin-top: 3rem;
+          }
+          .forms {
+          width: 84%;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          background-color: rgba(0, 0, 0, 0.8);
+          border-radius: 1rem;
+          margin-top: 0.5rem;
+          }
+          .logo {
+            height: 70px;
+            width: 130px;
+          }
+          .button-back {
+          float: none;
+          margin-top: 3rem;
+          padding: 4px 18px;
+          font-size: 90%;
+          }
+          .button-sign-up {
+          font-size: 90%;
+          padding: 4px 30px;
+          margin-right: 1rem;
+          }
+          .warp p {
+            font-size: 90%;
+          }
+          .title{
+            font-size: 1rem;
+          }
+        }
     </style>
 </head>
 
