@@ -41,7 +41,7 @@
                 clip-rule="evenodd" />
             </svg>
         </a>
-        <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+        <a href="https://www.instagram.com/itenas.official" class="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-4 w-4"
