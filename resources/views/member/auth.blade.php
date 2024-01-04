@@ -22,6 +22,30 @@
     />
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+        @media screen and (max-width:680px){
+          .forms {
+          width: 84%;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          background-color: rgba(0, 0, 0, 0.8);
+          border-radius: 1rem;
+          margin-top: 0.5rem;
+          }
+          .logo {
+            height: 70px;
+            width: 130px;
+          }
+          .button-back {
+          float: none;
+          padding: 4px 18px;
+          font-size: 90%;
+          }
+          .title{
+            font-size: 1rem;
+          }
+        }
     </style>
 
     <!-- <script src="{{ asset('stream/assets/script/tailwind-config.js') }}"></script> -->
