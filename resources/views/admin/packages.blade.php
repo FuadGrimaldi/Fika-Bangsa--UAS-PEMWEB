@@ -1,6 +1,6 @@
-@extends('admin.layouts.base');
+@extends('admin.layouts.base')
 
-@section('title', 'Package');
+@section('title', 'Package')
 
 @section('content')
 

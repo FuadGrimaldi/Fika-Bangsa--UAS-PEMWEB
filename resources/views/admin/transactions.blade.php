@@ -1,6 +1,6 @@
-@extends('admin.layouts.base');
+@extends('admin.layouts.base')
 
-@section('title', 'Transaction');
+@section('title', 'Transaction')
 
 @section('content')
 <div class="row">
