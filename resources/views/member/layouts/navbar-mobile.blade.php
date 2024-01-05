@@ -1,10 +1,15 @@
 <nav class="py-5 relative">
             <div class="flex flex-col w-full lg:flex-row lg:items-center">
                 <!-- Logo & Toggler Button here -->
-                <div class="flex items-center justify-between block lg:hidden">
+                <div class="flex items-center justify-between">
+                    <div class="flex flex-col gap-2 relative ml-3">
+                        <a href="{{route('member.profile')}}" class="outline outline-2 outline-stream-gray p-[6px] rounded-full w-[46px] dropdown-button">
+                            <img src="{{ asset('stream/assets/images/photo.png') }}" class="rounded-full object-cover w-full" alt="stream" />
+                        </a>
+                    </div>
                     <!-- LOGO -->
                     <a href="/" class="w-full">
-                        <img src="{{ asset('stream/assets/images/fika.png') }}" alt="fika" height="50px" width="100px"/>
+                        <img src="{{ asset('stream/assets/images/fika.png') }}" alt="fika" height="40px" width="60px"/>
                     </a>
                     <!-- RESPONSIVE NAVBAR BUTTON TOGGLER -->
                     <div>
@@ -65,22 +70,6 @@
                                 <path d="M1 10H23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                             Subscription
-                            </a>
-                        </div>
-                        <div class="flex flex-col w-full font-normal lg:w-auto lg:gap-12 lg:items-center lg:flex-row">
-                            <a
-                            href="{{ route('member.profile') }}"
-                            class="side-link px-7 py-2 rounded-md text-xs font-extralight text-white hover:font-bold">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path
-                                d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                            Account Setting
                             </a>
                         </div>
                         <div class="flex flex-col w-full font-normal lg:w-auto lg:gap-12 lg:items-center lg:flex-row">
