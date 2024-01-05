@@ -3,12 +3,12 @@
                 <!-- Logo & Toggler Button here -->
                 <div class="flex items-center justify-between">
                     <div class="flex flex-col gap-2 relative ml-3">
-                        <a href="{{route('member.profile')}}" class="outline outline-2 outline-stream-gray p-[6px] rounded-full w-[46px] dropdown-button">
-                            <img src="{{ asset('stream/assets/images/photo.png') }}" class="rounded-full object-cover w-full" alt="stream" />
+                        <a href="{{route('member.profile')}}" class="outline outline-2 outline-stream-gray p-[6px] rounded-full w-[46px]">
+                            <img src="{{ asset('stream/assets/images/photo.png') }}" class="rounded-full object-cover w-full" alt="" />
                         </a>
                     </div>
                     <!-- LOGO -->
-                    <a href="/" class="w-full">
+                    <a href="{{route('member.dashboard')}}" class="w-full">
                         <img src="{{ asset('stream/assets/images/fika.png') }}" alt="fika" height="40px" width="60px"/>
                     </a>
                     <!-- RESPONSIVE NAVBAR BUTTON TOGGLER -->
