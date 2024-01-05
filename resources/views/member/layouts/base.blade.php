@@ -56,7 +56,7 @@
             @include('member.layouts.navbar-mobile')
         </div>
         <div class="bg-brown">
-        @yield('content')
+            @yield('content')
         </div>
         <!-- <div class="text-white text-2xl text-center leading-snug font-medium">
             Sorry gan ini ga support hp, buka nya pake laptop 

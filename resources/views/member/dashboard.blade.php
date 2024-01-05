@@ -22,8 +22,8 @@
                                     <p class="mb-0 text-stream-gray lg:text-base text-xs mt-[10px]"></p>
                                 </div>
                             </div>
-                            <div class="absolute top-1/2 left-1/2 -translate-y-[500px] group-hover:-translate-y-1/2 -translate-x-1/2 z-20 transition ease-in-out duration-500">
-                                <img src="{{ asset('stream/assets/images/ic_play.svg') }}" class="" width="80" alt="">
+                            <div class="absolute top-1/2 lg:left-1/2 left-1 lg:ml-0 ml-[70px] -translate-y-[500px] group-hover:-translate-y-1/2 -translate-x-1/2 z-20 transition ease-in-out duration-500">
+                                <img src="{{ asset('stream/assets/images/ic_play.svg') }}" class="lg:w-[80px] w-[40px]" alt="">
                             </div>
                             <a href="{{ route('member.movie.detail', $movie->id)}}" class="inset-0 absolute z-50"></a>
                         </div>
@@ -88,8 +88,8 @@
                                             <p class="mb-0 text-stream-gray text-base mt-[10px]"></p>
                                         </div>
                                     </div>
-                                    <div class="absolute top-1/2 left-1/2 -translate-y-[500px] group-hover:-translate-y-1/2 -translate-x-1/2 z-20 transition ease-in-out duration-500">
-                                        <img src="{{ asset('stream/assets/images/ic_play.svg') }}" class="" width="80" alt="">
+                                    <div class="absolute top-1/2 lg:left-1/2 left-1 lg:ml-0 ml-[50px] -translate-y-[500px] group-hover:-translate-y-1/2 -translate-x-1/2 z-20 transition ease-in-out duration-500">
+                                        <img src="{{ asset('stream/assets/images/ic_play.svg') }}" class="lg:w-[80px] w-[40px]" alt="">
                                     </div>
                                     <a href="{{ route('member.movie.detail', $movie->id)}}" class="inset-0 absolute z-50"></a>
                                     <div class="mt-1 font-medium lg:text-sm text-[12px] text-white">{{$movie->title}}</div>
