@@ -2,7 +2,7 @@
 
 @section('title', 'Your Subscription')
 
-@section('title-description', 'You are satisfied with our subscription');
+@section('title-description', 'You are satisfied with our subscription')
 
 @section('content')
 <!-- Subscription Stat -->

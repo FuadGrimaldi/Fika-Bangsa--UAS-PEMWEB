@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fika | @yield('title')</title>
+    <script type="text/javascript"src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
     <link
-      rel="icon"
-      href="{{ asset('stream/assets/images/fika.png') }}"
-      type="image/icon type"
-    />
+    rel="icon"
+    href="{{ asset('stream/assets/images/fika.png') }}"
+    type="image/icon type"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
     <style>
@@ -31,9 +31,9 @@
     </style>
 </head>
 
-<body class="bg-gradient-to-b from-stone-800 to-brown font-poppins">
+<body class="font-poppins">
     <!-- Desktop Only -->
-    <div class="mx-auto max-w-screen hidden lg:block">
+    <div class="mx-auto bg-gradient-to-b from-stone-800 to-brown hidden lg:block">
         @include('member.layouts.sidebar')
         <!-- START: Content -->
         <div class="ml-[376px] pr-[50px] overflow-hidden">
@@ -51,12 +51,20 @@
     </div>
 
 
-    <div class="mx-auto px-4 w-full md:w-7/12 h-screen block lg:hidden flex">
-        <div class="text-white text-2xl text-center leading-snug font-medium my-auto">
-            Sorry gan ini ga support hp, buka nya pake laptop 
+    <div class="md block lg:hidden">
+        <div class="bg-gradient-to-b from-stone-800 to-brown outline outline-white">
+            @include('member.layouts.navbar-mobile')
         </div>
+        <div class="bg-brown">
+        @yield('content')
+        </div>
+        <!-- <div class="text-white text-2xl text-center leading-snug font-medium">
+            Sorry gan ini ga support hp, buka nya pake laptop 
+        </div> -->
     </div>
-
+    <div class="lg:hidden max-w-screen block overflow-hidden">
+        @include('member.layouts.footer')
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

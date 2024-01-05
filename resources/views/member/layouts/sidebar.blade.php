@@ -1,6 +1,6 @@
 <!-- START: Sidebar -->
 <aside class="fixed z-50 w-[300px] bg-gradient-to-b from-stone-800 to-brown">
-            <div class="flex flex-col p-8 border-r border-softpur overflow-y-auto h-screen">
+            <div class="md:flex flex-col p-8 border-r border-softpur overflow-y-auto h-screen">
                 <a href="{{route('member.dashboard')}}" class="m-auto pb-[70px]">
                     <img src="{{ asset('stream/assets/images/fika.png') }}" alt="fika" width="150px" height="150px">
                 </a>
