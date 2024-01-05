@@ -35,7 +35,7 @@
                                 <div class="flex flex-col font-normal">
                                     <a
                                     href="{{ route('member.movie.detail', $movie->id)}}"
-                                    class="px-5 py-1 mt-5 bg-red rounded-md">
+                                    class="px-5 mt-5 bg-red rounded-[5px]">
                                     <span class="text-xs font-normal text-white hover:font-bold">Watch</span>
                                     </a>
                                 </div>

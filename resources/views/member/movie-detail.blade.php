@@ -41,7 +41,25 @@
                 </div>
             </div>
         </div>
-
+        <!-- Button -->
+        <div class="flex items-baseline lg:-mt-[50px] -mt-[10px] gap-5">
+            <a
+            href="{{ route('member.movie.watch', $movie->id)}}"
+            class="lg:px-[40px] px-3 lg:py-1 mt-5 bg-red rounded-[5px]">
+                <span class="text-xs font-normal text-white hover:font-bold">Watch Now</span>
+            </a>
+            <a
+            href="#!"
+            class="lg:px-[50px] px-5 lg:py-1 mt-5 bg-[#777777] rounded-[5px]">
+                <span class="text-xs font-normal text-white hover:font-bold">Trailer</span>
+            </a>
+            <a
+            href="#!"
+            class="lg:px-[40px] px-3 lg:py-1 mt-5 bg-[#777777] rounded-[5px]">
+                <span class="text-xs font-normal text-white hover:font-bold">Download</span>
+            </a>
+        </div>
+        <!-- cast -->
         <div class="lg:mt-0 mt-3">
             <div class="lg:text-xl text-base text-white">Casts</div>
             <p class="max-w-[700px] mt-[10px] text-stream-gray lg:text-base text-xs leading-2">
