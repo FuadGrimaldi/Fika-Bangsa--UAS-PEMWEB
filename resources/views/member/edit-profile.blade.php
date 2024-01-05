@@ -20,10 +20,10 @@
     </a>
         <div class="bg-black overflow-hidden shadow rounded-lg border-black -mt-5">
             <div class="px-4 py-5 sm:px-6">
-                <h3 class="text-lg leading-6 font-medium text-white">
+                <h3 class="lg:text-lg text-base leading-6 font-medium text-white">
                     Edit Profile
                 </h3>
-                <p class="mt-1 max-w-2xl text-sm text-white">
+                <p class="mt-1 max-w-2xl lg:text-sm text-xs text-white">
                     This is some information about the user.
                 </p>
             </div>
@@ -62,7 +62,7 @@
                         </dd>
                     </div>
                     <div class="border-t border-brown px-4 py-5 sm:p-0">
-                        <button type="submit" class="float-right mr-5 my-5 px-[30px] py-[10px] bg-[#FE4848] rounded-md text-center">
+                        <button type="submit" class="float-right lg:mr-5 my-5 px-[30px] lg:py-[10px] py-[5px] bg-[#FE4848] rounded-md text-center">
                         <span class="text-white font-semibold text-base">
                             Save
                         </span>
@@ -70,4 +70,7 @@
                 </div>
             </form>
     </div>
+<div class="lg:hidden bg-brown h-[320px]">
+
+</div>
 @endsection

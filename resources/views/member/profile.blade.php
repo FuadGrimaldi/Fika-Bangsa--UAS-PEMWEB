@@ -5,12 +5,12 @@
 @section('title-description', 'This is your profile')
 
 @section('content')
-<div class="bg-black overflow-hidden shadow rounded-lg border-black my-5">
+<div class="bg-black overflow-hidden shadow rounded-lg border-black lg:my-5 ">
     <div class="px-4 py-5 sm:px-6">
-        <h3 class="text-lg leading-6 font-medium text-white">
+        <h3 class="text-lg leading-6 lg:font-medium text-base text-white">
             User Profile
         </h3>
-        <p class="mt-1 max-w-2xl text-sm text-white">
+        <p class="mt-1 max-w-2xl lg:text-sm text-xs text-white">
             This is some information about the user.
         </p>
     </div>
@@ -43,7 +43,7 @@
     <div class="border-t border-brown px-4 py-5 sm:p-0">
             @foreach($users as $user)
                 @if(($user->id) == (auth()->user()->id))
-                <a href="{{route('member.profile.edit', $user->id)}}" class="float-right mr-5 my-5 px-[30px] py-[10px] bg-[#FE4848] rounded-md text-center">
+                <a href="{{route('member.profile.edit', $user->id)}}" class="float-right mr-5 my-5 lg:px-[19px] px-3 lg:py-[13px] py-[5px] bg-red rounded-[5px]">
                     <span class="text-white font-semibold text-base">
                         Edit Profile
                     </span>
@@ -51,5 +51,8 @@
                 @endif
             @endforeach
     </div>
+</div>
+<div class="lg:hidden bg-brown h-[320px]">
+
 </div>
 @endsection
