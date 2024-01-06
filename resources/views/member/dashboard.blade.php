@@ -11,7 +11,7 @@
     <div class="font-semibold text-[22px] text-white py-3 px-6">Trending Now</div>
     @php $featuredDisplayed = false; @endphp
     @foreach ($movies as $movie)
-    @if (($movie->featured) == 1 && !$featuredDisplayed)
+    @if (($movie->title) == 'Petualangan Bersama Asep' && !$featuredDisplayed)
     @php $featuredDisplayed = true; @endphp
     <div class="grid grid-cols-2 gap-5 xl:gap-12">
         <div class="col-span-1 relative overflow-hidden group">
@@ -46,7 +46,7 @@
     </div>
 </div>
 <div class="min-[320px]:hidden lg:contents">
-    <div class="font-semibold text-[22px] text-white lg:py-0">Movie Featured</div>
+    <div class="font-semibold text-[22px] text-white lg:py-0">Movie Trending</div>
     <div class="grid lg:grid-cols-2 grid-cols-3 gap-5 xl:gap-12">
         @foreach ($movies as $movie)
         @if (($movie->featured) == 1)

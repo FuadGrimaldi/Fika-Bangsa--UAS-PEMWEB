@@ -21,7 +21,7 @@
                     @foreach ($movies as $movie)
                     @if (($movie -> categories) == 'Anime')
                     <!-- Movies 1 -->
-                    <div class="relative group overflow-hidden lg:mb-1 mb-[25px]">
+                    <div class="relative group overflow-hidden lg:mr-0 mr-6 lg:mb-1 mb-[25px]">
                         <img src="{{ asset('storage/thumbnail/'.$movie->small_thumbnail) }}" class="object-cover lg:rounded-[30px] rounded-[10px] lg:h-[300px] lg:w-[240px] h-[100px] w-[100px]" alt="">
                         <div
                             class="absolute bottom-0 left-0 right-0 from-black rounded-bl-[28px] rounded-br-[28px] translate-y-0 group-hover:translate-y-[300px] transition ease-in-out duration-500 group-hover:bg-transparent overflow-hidden">

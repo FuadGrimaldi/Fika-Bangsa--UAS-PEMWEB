@@ -5,7 +5,7 @@
 @section('title-description', 'Our selected movies for your mood')
 
 @section('content')
-<div class="lg:-mt-[35px] pb-[300px]">
+<div class="lg:-mt-[35px] pb-[100px]">
     <div class="flex items-center justify-center py-4 flex-wrap">
         <a href="{{route('member.categories')}}" class="text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[7px] lg:rounded-[12px] lg:text-base font-medium px-5 lg:py-1.5 py-1 text-center me-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-black dark:bg-gray-900 dark:focus:ring-blue-800">All categories</a>
         <a href="{{route('member.categories.action')}}" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-black dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-[7px] lg:rounded-[12px] text-base font-medium px-5 lg:py-1.5 py-1 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Action</a>
