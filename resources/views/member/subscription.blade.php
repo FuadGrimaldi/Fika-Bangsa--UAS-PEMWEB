@@ -106,9 +106,7 @@
     <!-- Stop Subscribe -->
     <div class="lg:rounded-2xl lg:bg-[#28130a] p-[30px] lg:m-auto lg:w-max lg:my-[20px] lg:pb-0 mt-0 ml-5 pb-[170px]">
         <p class="font-medium lg:text-sm text-xs text-white leading-[30px] max-w-[500px] mt-3 lg:mb-[30px]">
-            If you wish to stop subscribe our movies please continue
-            by clicking the button below. Make sure that you have read our
-            terms & conditions beforehand.
+        Jika Anda ingin berhenti berlangganan film kami, silakan lanjutkan dengan mengklik tombol di bawah. Pastikan Anda telah membaca syarat & ketentuan kami sebelumnya.
         </p>
         <form method="post" action="{{ route('member.user_premium.destroy', $user_premium->id) }}">
             @csrf
