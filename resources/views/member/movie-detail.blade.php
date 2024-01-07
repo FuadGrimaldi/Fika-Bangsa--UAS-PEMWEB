@@ -49,7 +49,7 @@
                 <span class="text-xs font-normal text-white hover:font-bold">Watch Now</span>
             </a>
             <a
-            href="#!"
+            href="{{$movie->trailer}}"
             class="lg:px-[50px] px-5 lg:py-1 mt-5 bg-[#777777] rounded-[5px]">
                 <span class="text-xs font-normal text-white hover:font-bold">Trailer</span>
             </a>

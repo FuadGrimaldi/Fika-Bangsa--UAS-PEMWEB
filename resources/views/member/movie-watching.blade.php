@@ -43,8 +43,8 @@
 
         <!-- Video Title -->
         <div class="absolute title-video top-7 left-1/2 -translate-x-1/2 max-w-[310px] md:max-w-[620px] text-center">
-            <span class="font-medium text-2xl transition-all text-white drop-shadow-md select-none">
-                Details Screen Part Final
+            <span class="font-medium text-2xl transition-all lg:text-black text-white drop-shadow-md select-none">
+                {{ $movie->title }}
             </span>
         </div>
     </section>
