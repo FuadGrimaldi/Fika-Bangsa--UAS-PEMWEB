@@ -43,7 +43,7 @@
           font-size: 90%;
           }
           .title{
-            font-size: 1rem;
+            font-size: 30px;
           }
         }
     </style>
